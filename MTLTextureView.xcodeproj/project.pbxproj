@@ -13,6 +13,10 @@
 		A9A84A2C29DA43820006411D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A84A2A29DA43820006411D /* Main.storyboard */; };
 		A9A84A2E29DA43830006411D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A84A2D29DA43830006411D /* Assets.xcassets */; };
 		A9A84A3129DA43830006411D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A84A2F29DA43830006411D /* LaunchScreen.storyboard */; };
+		A9A84A3E29DA43A60006411D /* Defaults.metal in Sources */ = {isa = PBXBuildFile; fileRef = A9A84A3929DA43A60006411D /* Defaults.metal */; };
+		A9A84A3F29DA43A60006411D /* PageCurl.metal in Sources */ = {isa = PBXBuildFile; fileRef = A9A84A3A29DA43A60006411D /* PageCurl.metal */; };
+		A9A84A4029DA43A60006411D /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84A3C29DA43A60006411D /* MetalRenderer.swift */; };
+		A9A84A4129DA43A60006411D /* TextureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84A3D29DA43A60006411D /* TextureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A9A84A2D29DA43830006411D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9A84A3029DA43830006411D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9A84A3229DA43830006411D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A84A3929DA43A60006411D /* Defaults.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Defaults.metal; sourceTree = "<group>"; };
+		A9A84A3A29DA43A60006411D /* PageCurl.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = PageCurl.metal; sourceTree = "<group>"; };
+		A9A84A3C29DA43A60006411D /* MetalRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		A9A84A3D29DA43A60006411D /* TextureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +71,28 @@
 				A9A84A2D29DA43830006411D /* Assets.xcassets */,
 				A9A84A2F29DA43830006411D /* LaunchScreen.storyboard */,
 				A9A84A3229DA43830006411D /* Info.plist */,
+				A9A84A3B29DA43A60006411D /* Core */,
+				A9A84A3829DA43A60006411D /* Shaders */,
 			);
 			path = MTLTextureView;
+			sourceTree = "<group>";
+		};
+		A9A84A3829DA43A60006411D /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				A9A84A3929DA43A60006411D /* Defaults.metal */,
+				A9A84A3A29DA43A60006411D /* PageCurl.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		A9A84A3B29DA43A60006411D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A9A84A3C29DA43A60006411D /* MetalRenderer.swift */,
+				A9A84A3D29DA43A60006411D /* TextureView.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A84A4129DA43A60006411D /* TextureView.swift in Sources */,
+				A9A84A3F29DA43A60006411D /* PageCurl.metal in Sources */,
 				A9A84A2929DA43820006411D /* ViewController.swift in Sources */,
+				A9A84A4029DA43A60006411D /* MetalRenderer.swift in Sources */,
 				A9A84A2529DA43820006411D /* AppDelegate.swift in Sources */,
 				A9A84A2729DA43820006411D /* SceneDelegate.swift in Sources */,
+				A9A84A3E29DA43A60006411D /* Defaults.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
