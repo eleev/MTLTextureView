@@ -18,4 +18,4 @@
 [Astemir Eleev](https://github.com/jVirus)
 
 # 🔖 Licence
-The project is availabe under the [MIT License](https://github.com/jVirus/MTLTextureView/edit/main/LICENCE.md).
+The project is availabe under the [MIT License](https://github.com/jVirus/MTLTextureView/blob/main/LICENCE).
