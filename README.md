@@ -3,10 +3,10 @@
 [![Language](https://img.shields.io/badge/Language-Swift_5.8-orange.svg)]()
 [![Framework](https://img.shields.io/badge/Framework-Metal-red.svg)]()
 [![Shaders](https://img.shields.io/badge/Platforms-iOS|iPadOS-green.svg)]()
-[![Last Commit](https://img.shields.io/github/last-commit/jvirus/swiftui-2048)]()
-[![NLOC](https://img.shields.io/tokei/lines/github/jvirus/swiftui-2048)]()
-[![Contributors](https://img.shields.io/github/contributors/jvirus/swiftui-2048)]()
-[![Repo Size](https://img.shields.io/github/repo-size/jvirus/swiftui-2048)]()
+[![Last Commit](https://img.shields.io/github/last-commit/jvirus/MTLTextureView)]()
+[![NLOC](https://img.shields.io/tokei/lines/github/jvirus/MTLTextureView)]()
+[![Contributors](https://img.shields.io/github/contributors/jvirus/MTLTextureView)]()
+[![Repo Size](https://img.shields.io/github/repo-size/jvirus/MTLTextureView)]()
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)]()
 
 ### If you like the project, please give it a star ⭐ It will show the creator your appreciation and help others to discover the repo.
